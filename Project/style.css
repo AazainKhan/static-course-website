@@ -1,0 +1,360 @@
+/* Made by Aazain Khan
+Student ID - 301277063 */
+html {
+    background-color: #FBF7F1;
+    scroll-behavior: smooth;
+
+}
+body {
+    margin: 0;
+}
+hr {
+    width: 10%;
+    border-color: #CC7D47;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syncopate';
+    text-transform: uppercase;
+    color:#262B26;
+}
+h1 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 34px;
+    margin:0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin:0;
+
+}
+p {
+    font-family: 'Raleway', 'opensans';
+    font-size: 20px;
+    font-weight: 400;
+    color: #262B26;
+}
+main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    overflow: hidden;
+    position: sticky;
+    display:inline-flex;
+    background-color: #807045;
+    justify-content: center;
+    z-index: 100;
+    top: 0;
+    margin-bottom: -1em;
+    width: 100%}
+nav .logo-cont {
+    display: flex;
+    float:left;
+    justify-content: space-between;
+    font-family: 'Syncopate', 'Raleway';
+    padding: 0.5em 0 0.5em 0;
+}
+nav .logo {
+    float: left;
+    padding: 1em 2em 1em 2em;
+}
+.logo img {
+    margin: 0;
+    padding: 0;
+}
+.logo img:hover {
+    filter: invert(54%) sepia(44%) saturate(621%) hue-rotate(341deg) brightness(93%) contrast(86%);
+}
+nav .navlinks {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    font-family: 'Syncopate', 'Raleway';
+    padding: 0.5em 2em 0.5em 2em;
+}
+a {
+    text-decoration: none;
+    color:#CC7D47;
+}
+.navlinks a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FBF7F1;
+    padding: 1em;
+    text-align: center;
+}
+.navlinks a:hover {
+    color:#CC7D47;
+}
+#hero {
+    position: relative;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    color: white;
+    
+    background-image: linear-gradient(black, transparent), url(img/1.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    
+}
+.hero-inner h1 {
+    font-weight: 400;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    color:#FBF7F1
+}
+.hero-inner h3 {
+    font-weight: 700;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    color:#FBF7F1
+}
+#content {
+    display:block;
+}
+.mission{
+    position: relative;
+    display:block;
+    float:left;
+    margin: 3em 1em 3em 1em;
+}
+.mission > p > span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.vision {
+    margin: 2em 1em 2em 1em;
+}
+.location {
+    margin: 2em 1em 2em 1em;
+}
+.about-cont {
+    margin: 2em 1em 2em 1em;
+
+}
+.contact-info {
+    margin: 2em 1em 2em 1em;
+}
+.longh {
+    font-size: 30px;
+}
+footer {
+    text-align: center;
+    line-height: 3em;
+    font-size: 12px;
+    font-family: 'Raleway';
+    color: #e3d6c2;
+    background-color: #CC7D47
+}
+header h1 {
+    background-color: #e3d6c2;
+    margin: 0.1em 0em 0em 0em;
+    padding: 2em;
+}
+.location{
+    position: relative;
+    display: block;
+}
+.form-wrap {
+    background-color: #4a5e4a;
+    border-radius: 12px;
+    padding: 2em 1em 2em 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+
+}
+.contact-cont{
+    position: relative;
+    display: block;
+
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+input:focus {
+    outline: 2px solid #a4b9a4;
+}
+select:focus {
+    outline: 2px solid #a4b9a4;
+}
+option:focus {
+    outline: 2px solid #a4b9a4;
+}
+textarea:focus {
+    outline: 2px solid #a4b9a4;
+}
+button:focus{
+    outline: 2px solid #a4b9a4;
+    
+}
+input[type="text"] {
+    font-family: 'Raleway';
+    border: none;
+    width:fit-content;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #e3d6c2;
+
+}
+input[type="time"] {
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+
+    background-color: #e3d6c2;
+}
+input[type="tel"] {
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+
+    background-color: #e3d6c2;
+}
+input[type="email"] {
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+
+    background-color: #e3d6c2;
+
+}
+select {
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+
+    background-color: #e3d6c2;
+
+}
+option {
+    font-family: 'Raleway';
+    color: #262B26;
+    width: 100%;
+    
+    background-color: #e3d6c2;
+}
+form {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+form .row {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+
+}
+legend h3{
+    color: #fbf7f1;
+}
+label {
+    font-family: 'Raleway';
+    color: #fbf7f1;
+    font-weight: 600;
+    line-height: 1em;
+    padding: 0.5em;
+    width: 100%;
+    float:left;
+}
+textarea {
+    resize: none;
+    width: 100%;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #e3d6c2;
+
+}
+.buttons {
+    display: flex;
+    padding: 2em;
+    align-content: center;
+    justify-content: center;
+}
+button {
+    font-family: 'Syncopate';
+    text-transform: uppercase;
+    background-color: #CC7D47;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #fbf7f1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table {
+    border: 1px solid #262B26;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #262B26;
+    text-align: center;
+    font-family: 'Raleway';
+    
+
+}
+th {
+    color:#FBF7F1;
+    background-color: #4a5e4a;
+}
+.table-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+.sitemap a {
+    font-family: 'raleway';
+}
+.sitemap li {
+    font-family: 'raleway';
+    overflow: hidden;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.credits {
+    margin: 2em 1em 2em 1em;
+}
+ul {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}

@@ -1,0 +1,197 @@
+html {
+    background-color: #000000;
+}
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    overflow-x: hidden;
+    font-family: roboto, Microsoft JhengHei, sans-serif;
+
+}
+header {
+    background-color: #161a1d;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0;
+}
+h2 {
+    color:#ff0029;
+    font-family: 'Oswald', sans-serif;
+}
+header .left {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .right {
+    display: inline-flex;
+    align-items: center;
+}
+.right {
+    padding: 0.5em 0.8em;
+}
+.right h2 {
+    margin: 0;
+    padding: 0.2em;
+}
+.right a {
+    text-decoration: none;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.right h2:hover{
+    color: #f3f3f3;
+}
+.left {
+    padding: 0.5em 0.8em;
+}
+.left a {
+    padding: 0 1em 0 0;
+}
+.left h2 {
+    margin: 0;
+    text-transform: uppercase;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.largeimg {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.largeimg a {
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #F3F3F3;
+}
+.largeimg a:hover{
+    color:#ff0029;
+}
+.features {
+    position: relative;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+
+}
+.featuregrid {
+    position: static;
+    display: grid;
+    padding: 1em;
+    grid-template-rows: fit-content fit-content fit-content ;
+    grid-template-columns: auto auto;
+    grid-row: 3;
+    height: 1%;
+}
+.feature {
+    padding: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+.feature p {
+    color: #F3F3F3;
+}
+.desc {
+    padding: 1em;
+    margin: auto 6.5em;
+    text-align: center; ;
+}
+.desc p {
+    color: #F3F3F3;
+    margin: 0;
+}
+.heading {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+.heading h2 {
+    margin: 0 2em;
+    padding: 0;
+}
+.modeltable {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+    margin: 0;
+
+}
+.modeltable table {
+    color: #F3F3F3;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    border: 
+}
+.modeltable td, tr {
+    text-align: left;
+    border-collapse: collapse;
+    line-height: 3em;
+}
+ tr:nth-child(even) {
+    background-color: #161a1d;
+}
+#tableh {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+.modeltable a:hover, td:hover {
+    color:#ff0029
+}
+.modeltable a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+.canmap {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+    margin: 0;
+}
+h5 {
+    color: #F3F3F3;
+}
+footer {
+    text-align: center;
+}

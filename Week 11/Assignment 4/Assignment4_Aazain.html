@@ -1,0 +1,1149 @@
+<!--Made by Aazain Khan
+Student ID - 301277063-->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>STUDENT BEHAVIOUR OBSERVATION FORM</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect"
+            href="https://fonts.gstatic.com">
+    </head>
+    <body>
+        <header>
+            <h1>CENTENNIAL COLLEGE</h1>
+            <h1>STUDENT BEHAVIOUR OBSERVATION FORM</h1>
+            <a href="https://www.centennialcollege.ca/"><img src="img/banner.jpg" width="100%" height="auto"></a>
+        </header>
+        <hr>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="course-name">Course Name/Code: </label>
+                    <input type="text" id="course-name" name="course-name" placeholder="(Write here)" required="">
+                </div>
+                <div class="col">
+                    <label for="year">Start Date: </label>
+                    <input type="date" id="year" name="year">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="prof-name">Professor's Name: </label> &nbsp;
+                    <input type="text" id="prof-name" name="prof-name" required="">
+                </div>
+                <div class="col">
+                    <label for="email">Email: </label> &nbsp;
+                    <input type="email" id="email" name="email" placeholder="someone@someplace.ca" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="term" id="term" name="term" required="">Term: </label>
+                    <select name="term" id="term">
+                        <option value="Winter">Winter</option>
+                        <option value="Summer">Summer</option>
+                        <option value="Fall">Fall</option> 
+                    </select>            
+                </div>
+            </div>
+            <hr>
+            <h2>(0 – Never, 1 – Occasionally, 2 – Often, 3 – Very often)</h2>
+            <ol>
+                <fieldset>
+                    <legend><h4>A) General Behaviour: </h4></legend>
+                    <div class="question-content">
+                        <li>Fails to give attention to details</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Does not listen when spoken to directly</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-1" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-1" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-1" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-1" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Fails to finish task</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-2" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-2" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-2" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-2" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Has difficulty organizing tasks / activities</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-3" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-3" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-3" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-3" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Avoids / dislikes tasks that require mental efforts</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-4" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-4" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-4" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-4" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Easily distracted by noise or movements</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-5" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-5" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-5" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-5" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Forgetful in daily activities</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-6" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-6" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-6" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-6" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Talks excessively</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-7" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-7" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-7" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-7" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="question-content">
+                        <li>Cell phone / other gadgets usage</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-8" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-9" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-9" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-9" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Has difficulty sitting in the class</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-10" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-10" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-10" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-10" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Interrupts the conversation or activities of others</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-11" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-11" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-11" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-11" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Refuses to follow directions /rules given by teacher</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-12" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-12" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-12" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-12" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Eating in the class</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-13" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-13" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-13" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-13" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Sleeps during class</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-14" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-14" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-14" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-14" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Singing in the class</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-15" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-15" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-15" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-15" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Late for class</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-16" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-16" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-16" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-16" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Leaving the class early</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-17" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-17" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-17" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-17" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Lies or “Cons” others to get favors</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-18" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-18" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-18" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-18" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Is fearful / anxious or worried</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-19" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-19" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-19" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-19" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Assignment / Class work completion </li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-20" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-20" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-20" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-20" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </ol>
+            
+            <ol>
+                <fieldset>
+                    <legend><h4>B) Issues of concern: </h4></legend>
+                    <div class="question-content">
+                        <li>Talks to other students during Lectures</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-21" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-21" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-21" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-21" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="question-content">
+                        <li>Inattentive behavior (Yawning, Slouching, etc)</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-22" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-22" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-22" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-22" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Missing the class</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-23" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-23" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-23" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-23" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Disputes grades on Quizzes / Lab works / Project</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-24" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-24" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-24" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-24" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Showing strong emotions (Anger/resentful / emotional states)</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-25" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-25" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-25" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-25" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Irritates / hurts the teacher / other students by words & actions</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-26" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-26" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-26" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-26" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Avoiding the lecture</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-27" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-27" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-27" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-27" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Walking out of the class room during Lecture</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-28" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-28" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-28" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-28" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Bullies / Threatens / intimidates other students or teacher</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-29" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-29" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-29" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-29" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Speaking in a loud voice</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-30" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-30" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-30" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-30" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Lose temper</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-31" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-31" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-31" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-31" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Starts physical fights</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-32" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-32" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-32" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-32" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Mean / Resentful / Seeking revenge</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-33" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-33" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-33" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-33" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="question-content">
+                        <li>Physically cruel to students / Teacher</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-34" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-34" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-34" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-34" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="question-content">
+                        <li>Stolen things of other students </li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-35" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-35" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-35" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-35" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li><label for="comment">Disgusting behavior: </label></li>
+                        <textarea id="comment" name="comment" placeholder="(Write here)"></textarea>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Deliberately destroys properties of others</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-36" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-36" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-36" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-36" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li><label for="comment">Using negative words or Inappropriate comments in class: </label></li>
+                        <textarea id="comment" name="comment-1" placeholder="(Write here)"></textarea>
+                    </div>
+
+                    <div class="question-content">
+                        <li><label for="comment">Disrupting the class: </label></li>
+                        <textarea id="comment" name="comment-2" placeholder="(Write here)"></textarea>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Disrespectful to professor and classmates</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-37" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-37" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-37 value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-37" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Dishonest behavior (Lye / Cheat / Plagiarizing the work of others)</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-38" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-38" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-38" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-38" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li><label for="comment">Rude behavior: </label></li>
+                        <textarea id="comment" name="comment-3" placeholder="(Write here)"></textarea>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Taking punitive action against professor</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-39" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-39" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-39" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-39" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li><label for="comment">Creating disturbance in the class: </label></li>
+                        <textarea id="comment" name="comment-4" placeholder="(Write here)"></textarea>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Inappropriate attire (wearing cap, sloppy, revealing attire)</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-40" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-40" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-40" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-40" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li><label for="comment">Annoying comments : </label></li>
+                        <textarea id="comment" name="comment-5" placeholder="(Write in specific)"></textarea>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Trying to buy grade (through flirting or money)</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-41" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-41" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-41" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-41" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Making excuses</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-42" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-42" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-42" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-42" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Complaining about workload</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-43" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-43" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-43" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-43" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-content">
+                        <li>Doing work of another course in class</li>
+                        <div class="radiobtns">
+                            <div class="rating">
+                                <input type="radio" id="never" name="choice-44" value="0">
+                                <label for="never">0</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="occasionally" name="choice-44" value="1">
+                                <label for="occasionally">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="often" name="choice-44" value="2">
+                                <label for="often">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="veryoften" name="choice-44" value="3">
+                                <label for="veryoften">3</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specific-question-content">
+                        <div class="row">
+                            <div class="col">
+                                <p><b>Incident in specific:</b></p>
+                            </div>
+                            <div class="col">
+                                <label for="incident-date"><b>Date of the Incident: </b></label>
+                                <input type="date" name="incident-date" id="incident-date">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <textarea id="comment" name="comment-5" placeholder="(Explain briefly the incident in this space provided)"></textarea>
+                        </div>
+                        <p><b>Disciplinary action to be taken - Recommended by the professor:<br>
+                            (Tick the appropriate box)</b></p>
+                            <div class="checkboxes">
+                                <div class="row">
+                                        <label for="warning"><b>Issue of warning letter</b></label>
+                                    <div class="col">
+                                        <input type="checkbox" id="warning" name="check">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <label for="meeting"><b>Parent / Guardian meeting</b></label>
+                                    <div class="col">
+                                        <input type="checkbox" id="meeting" name="check-1">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <label for="mental"><b>Referral to the mental clinic</b></label>
+                                    <div class="col">
+                                        <input type="checkbox" id="mental" name="check-2">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <label for="counselling"><b>Referral to the counselling team</b></label>
+                                    <div class="col">
+                                        <input type="checkbox" id="counselling" name="check-3">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <label for="termination"><b>Termination from the College</b></label>
+                                    <div class="col">
+                                        <input type="checkbox" id="termination" name="check-4">
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </fieldset>
+            </ol>
+
+            <fieldset>
+                <legend><h4>Signature: </h4></legend>
+                <div class="row">
+                    <label for="dean-name"><b>Name & Signature of the Dean: </b></label>
+                    <input type="text" id="dean-name" name="dean-name">
+                </div>
+                <div class="row">
+                    <label for="chair-name"><b>Name & Signature of the Chair: </b></label>
+                    <input type="text" id="chair-name" name="chair-name">
+                </div>
+                <div class="row">
+                    <label for="prof-name"><b>Course Professor’s name / Signature: </b></label>
+                    <input type="text" id="prof-name" name="prof-name">
+                </div>
+                <div class="row">
+                    <label for="witness-name"><b>Witnesses (if necessary): </b></label>
+                    <input type="text" id="witness-name" name="witness-name">
+                </div>
+            </fieldset>
+            <br>
+            <div class="row">
+                <p>(A Copy of the form to be sent to the HR, Dean / Student Affairs, Director / Inclusion, School records records and to the President’s office for further action.)</p>
+            </div>
+            <div class="buttons">
+                <button type="submit" value="Submit Form">Submit Form</button>
+                <button type="reset" value="Clear Form">Clear Form</button>
+            </div>
+        </form>
+        <footer>© 2022 All rights reserved | Designed and developed by Aazain Khan | Student ID - 301277063 | COMP213 - Fall 2022</footer>
+    </body>
+</html>

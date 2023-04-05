@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Application Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect"
+        href="https://fonts.gstatic.com">
+    </head>
+    <body>
+        <header>
+            <h1>Application Form</h1>
+        </header>
+        <form>
+            <div class="row">
+            <label for="fname">Name: </label>
+            <input type="text" id="fname" name="fname" required>
+            <br>
+            </div>
+
+            <div class="row">
+            <label for="fpwd">Password: </label>
+            <input placeholder="Enter Password" type="password" id="fpwd" name="fpwd" required>
+            <br>
+            </div>
+
+            <div class="row">
+            <label for="fdob">Date of Birth: </label>
+            <input type="date" id="fdob" name="fdob">
+            <br>
+            </div>
+
+            <div class="row">
+            <label for="fgen">Gender: </label>
+            <input type="radio" id="fgen" name="fgen" vlaue="Male"> Male
+            <input type="radio" id="fgen" name="fgen" vlaue="Female"> Female
+            <br>
+            </div> 
+
+            <div class="row">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email">
+            <br>
+            </div>
+
+            <div class="row">
+            <label for="lang">Languages: </label>
+            <input type="checkbox" id="lang" name="lang"vlaue="C">C
+            <input type="checkbox" id="lang" name="lang"vlaue="C++">C++
+            <input type="checkbox" id="lang" name="lang"vlaue="Python">Python
+            <br>
+            </div>
+
+            <div class="row">
+            <label for="dept">Department: </label>
+            <select id="dept">
+                <option value="ECE">ECE</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="MECH">MECH</option>
+            </select>
+            <br>
+            </div>
+
+            <div class="row">
+            <label for="comments">Comments :</label>
+            <textarea id="comments" name="comments"></textarea>
+            <label for="resume">Upload Resume: </label>
+            <input type="file" id="myFile" name="filename">
+            <br>
+            </div>
+
+            <div class="row">
+            <label for="color">Choose your color: </label>
+            <input type="color" id="color" name="color">
+            <br>
+            </div>
+            
+            <div class="row">
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+            </div>
+        </form>
+        <footer>
+            <h6>©&nbsp;2022 All rights reserved. Designed and developed by Aazain Khan. COMP213 - Fall 2022</h6>
+        </footer>
+    </body>
+</html>

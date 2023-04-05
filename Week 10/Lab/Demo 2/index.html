@@ -1,0 +1,123 @@
+<!--Made by Aazain Khan
+Student ID - 301277063-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>New HTML5 Input Types</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect"
+            href="https://fonts.gstatic.com">
+    </head>
+    <body>
+        <div id="content">
+            <h1>New HTML5 Input Types Demo</h1>
+            <p>This form demonstrates the new HTML5 input types and the placeholder, required and autofocus attributes.</p>
+            <fieldset>
+               <legend>New HTML5 Input Types</legend>
+
+               <div class=row>
+                  <label>Color:
+                     <input type = "color" autofocus /> 
+                     (Hexadecimal code such as #ADD8E6)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Date:
+                     <input type = "date" /> 
+                     (yyyy-mm-dd)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Datetime:
+                     <input type = "datetime" /> 
+                     (yyyy-mm-ddThh:mm+ff:gg, such as 2014-01-27T03:15)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Datetime-local:
+                     <input type = "datetime-local" /> 
+                     (yyyy-mm-ddThh:mm, such as 2014-01-27T03:15)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Email:
+                     <input type = "email" placeholder = "name@domain.com" required /> 
+                     (name@domain.com)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Month:
+                     <input type = "month" /> 
+                     (yyyy-mm)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Number:
+                     <input type = "number" min = "0" max = "7" step = "1" value = "4" />
+                  </label> 
+                  (Enter a number between 0 and 7)
+               </div>
+
+                <div class=row>
+                  <label>Range:0 
+                     <input type = "range" min = "0" max = "20" value = "10" /> 
+                     20
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Search:
+                     <input type = "search" placeholder = "search query" />
+                  </label>
+                  (Enter your search query here.)
+               </div>
+
+               <div class=row>
+                  <label>Tel:
+                     <input type = "tel" placeholder = "(###) ###-####" pattern = "\(\d{3}\) +\d{3}-\d{4}" required /> 
+                     (###) ###-####
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>
+                     Time:
+                     <input type = "time" /> 
+                     (hh:mm)
+                  </label>
+               </div>
+               <div class=row>
+                  <label>URL:
+                     <input type = "url" placeholder = "http://www.domainname.com" /> 
+                     (http://www.domainname.com)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <label>Week:
+                     <input type = "week" /> 
+                     (yyyy-Wnn, such as 2014-W01)
+                  </label>
+               </div>
+
+               <div class=row>
+                  <input type = "submit" value = "Submit Form" />
+                  <input type = "reset" value = "Clear Form" />
+                </div> 
+            </fieldset>
+        </div>
+    </body>
+</html>

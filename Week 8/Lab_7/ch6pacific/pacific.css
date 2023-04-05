@@ -1,0 +1,108 @@
+.body {
+    background-image: linear-gradient(#FFFFFF,#90C7E3);
+    background-repeat: no-repeat;
+    background-color: #90C7E3;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+nav {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+nav, a {
+    text-decoration: none;
+}
+h2 {
+    color: #000033;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px #CCCCCC;
+}
+.resort {
+    color: #5c7fa3;
+    font-weight: bold;
+}
+h1 {  
+    margin-top: 0;  
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+h3 {
+    color: #000033;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+ul {
+    list-style-image: url(marker.gif);
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid #3399CC;
+}
+table.nospacing {
+    border-spacing: 0; 
+}
+
+table.nospacing th, td {
+    padding: 0;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+.oddrow {
+    background-color: #F5FAFC
+}
+footer {
+    font-size: 75%;
+    padding: 20px;
+}
+.contact {
+    font-size: 90%;
+}
+#wrapper {
+    align-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 204px;
+    box-shadow: 3px 3px #333333;
+}
+main {
+    padding: 1px 20px 20px 20px;
+    display: block; /*Remove if neccessary*/
+}
+#homehero {
+    height: 300px;
+    background-image: url("coast.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#yurthero {
+    height: 300px;
+    background-image: url(yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#trailhero {
+    height: 300px;
+    background-image: url(trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

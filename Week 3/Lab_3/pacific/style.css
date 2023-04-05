@@ -1,0 +1,42 @@
+
+nav {
+	text-align: center;
+    background-color: #023047;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+}
+html {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8ecae6;
+    font-family:'Montserrat', sans-serif;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+header {
+    padding: 20px;
+    background-color: #219ebc ;
+    border-radius: 8px;
+}
+a {
+	text-decoration: none;
+    color: #fb8500;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a:hover {
+	text-decoration: underline overline;
+	background-color: #ffb703;
+}
+ul {
+	list-style-image: url('cocktail.png');
+}

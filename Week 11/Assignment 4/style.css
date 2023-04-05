@@ -1,0 +1,159 @@
+html {
+    background-color: #cfdbd5;
+    color: #242423;
+}
+header {
+    position: relative;
+    display: block;
+    padding: 1em;
+}
+input{
+    background-color: #e8eddf;
+    border: none;
+    border-radius: 6px;
+
+}
+option, select{
+    background-color: #e8eddf;
+    border-radius: 10px;
+    text-align: center;
+
+}
+input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+}
+form {
+    border: 3px solid;
+    border-radius: 12px;
+    padding: 1em;
+}
+legend {
+    color: #333533;
+}
+input[type="radio"] {
+    width: 1em;
+    height: 1em;
+}
+header > a > img {
+    border-radius: 12px;
+}
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+ol {
+    padding: 0;
+}
+
+.question-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+    line-height: 3em;
+    padding: 0 3em 0 3em;
+}
+.rating {
+    padding: 0 1em 0 1em;
+}
+.rating > label {
+    padding: 0 0.2em 0 0.2em;
+}
+.rating > #never {
+    margin: 0 0.2em 0 0.2em;
+}
+.rating > #occasionally {
+    margin: 0 0.2em 0 0.2em;
+}
+.rating > #often  {
+    margin: 0 0.2em 0 0.2em;
+}
+.rating > #veryoften {
+    margin: 0 0.2em 0 0.2em;
+}
+.radiobtns {
+    display: flex;
+    width: auto;
+}
+fieldset {
+    padding: 2em;
+    margin: 0;
+    border-radius: 12px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    line-height: 2em;
+    padding: 0 1em 0 1em;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+.row p {
+    margin: 0;
+    display: inline-block;
+}
+.col {
+    padding: 0 4em 0 4em;
+}
+textarea {
+    width:34%;
+    height: 20%;
+    resize: none;
+    border: none;
+    background-color: #e8eddf;
+    border-radius: 6px;
+
+}
+.buttons {
+    padding: 2em;
+}
+button {
+    background-color: #d7e13c;
+    border: 1px solid;
+    border-radius: 12px;
+    font-weight: bold;
+    color: 242423;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+}
+.specific-question-content textarea {
+    width: 100%;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.specific-question-content > .row > .col {
+    padding: 0;
+}
+.specific-question-content > p {
+    padding: 0 1em 0 1em;
+
+}
+.specific-question-content > .checkboxes > .row > .col {
+    padding-right: 14em;
+}
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}

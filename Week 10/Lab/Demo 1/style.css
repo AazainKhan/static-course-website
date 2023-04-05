@@ -1,0 +1,95 @@
+html {
+    background-color: #464648;
+}
+header {
+    display:flex;
+    position: relative;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF
+}
+body  {
+    display:block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:8px;
+    margin-bottom: 8px;
+    width: 980px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#allPage {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #d5e037;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #d5e037;
+    padding: 10px;
+}
+.row {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    align-content: center;
+    align-items: center;
+    resize: auto;
+}
+label {
+	width: 200px;
+	float: left;
+	text-align: right;
+}
+fieldset {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #d5e037;
+    padding: 6px;
+    border-color: #d5e037;
+}
+.pinfo {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-image: initial;
+}
+
+.einfo {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-image: initial;
+}
+h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: x-large;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+form {
+    padding: 1em;
+}

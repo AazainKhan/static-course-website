@@ -1,0 +1,18 @@
+
+body {
+    margin: auto;
+    width:60%;
+    max-width: 980px;
+}
+form {
+    padding: 1em;
+    width: 250xp;
+}
+header {
+    padding: 1em;
+}
+.row {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    align-content: center;
+}
