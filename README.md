@@ -4,6 +4,9 @@
 
 Website for COMP 213: Web Design Interface. Hosts all assignments, quizzes, and labs.
 
+[COMP 213 - Web Design Interface](http://studentweb.cencol.ca/akhan604/)
+
+
 ## Screenshots
 
 <img width="1512" alt="Screenshot 2023-04-04 at 9 16 43 PM" src="https://user-images.githubusercontent.com/43759637/229956840-04c3c2fe-3fd5-4367-917a-8b6663287bd3.png">
